@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 class ReportsScreen extends StatefulWidget {
   @override
@@ -13,11 +14,10 @@ class _ReportsScreenState extends State<ReportsScreen> {
   }
 
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Timed Book',
-      home: Scaffold(
-        body: const Center(
-          child: const Text('Reports screen'),
+    return Scaffold(
+      body: Center(
+        child: Text(
+          'Reports screen',
         ),
       ),
     );
